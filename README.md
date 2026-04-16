@@ -7,7 +7,15 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 To start a local development server, run:
 
 ```bash
-ng serve
+
+Host application --
+ng serve shell --port 4200
+
+Remove Application --
+
+1. ng serve institute-dashboard --port 4201
+2. ng serve parent-dashboard --port 4202
+
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
